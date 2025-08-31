@@ -43,8 +43,8 @@ jobs:
         run: echo 'design.justdev.cn' > docs/.vitepress/dist/CNAME
       - name: Commit CNAME file
         run: |
-          git config --local user.email '1469442737@qq.com'
-          git config --local user.name 'Tyh2001'
+          git config --local user.email 'lijq1103@gmail.com'
+          git config --local user.name 'lijiaqi'
           git add -f docs/.vitepress/dist/CNAME
           git commit -m 'Add CNAME file for custom domain'
 
